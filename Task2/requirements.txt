@@ -1,0 +1,20 @@
+```txt
+fastapi==0.110.0
+uvicorn==0.29.0
+
+pillow>=10.0.0
+numpy>=1.26.0
+
+# facenet + MTCNN
+facenet-pytorch==2.5.3
+
+# PyTorch is installed separately depending on platform:
+# For CPU-only installs:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# For GPU installs (optional):
+# pip install torch torchvision torchaudio
+
+opencv-python>=4.8.0
+tqdm>=4.66.0
+
