@@ -52,7 +52,6 @@ The system supports pairwise face verification:
   - `bounding_boxes` for both images
 
 ---
-
 ## Project Structure
 
 ├── main.py # FastAPI application
